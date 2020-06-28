@@ -1,0 +1,23 @@
+#macro(link $text $url)
+#if($currentTask == "nyaa")[$text]($url)#{else}$text ($url)#end
+#end
+v2 to fix two typos as well as to test my #link("automation toolkit" "https://github.com/Myaamori/subkt/"). Reproducible repo #link("here" "https://github.com/Myaamori/fragtime") for the curious.
+#if($currentTask == "nyaa")You can find the original torrent [here](https://nyaa.si/view/1246433).#end
+
+The latest yuri goodness by the staff that brought you the Kase-san OVA, now with somewhat efforted typesetting and stuff.
+
+Press F for Tear Studio.
+
+Translation, typesetting: Myaamori
+Timing: wrd
+QC: Lolita
+Encoding: KoolKidsK
+Special thanks: Vardë for doing a nice encode of the TV airing, that ended up going unused because I was too slow at typesetting (sorry).
+
+Only #link("mpv" "https://mpv.io"), and mpv-based players like #link("SMPlayer" "https://www.smplayer.info/"), are supported. Some typesetting may render incorrectly in VSFilter (MPC-HC and the like).
+#if($currentTask == "nyaa")
+
+![](https://files.catbox.moe/0x13r7.jpg)
+![](https://files.catbox.moe/0ql5gs.jpg)
+![](https://files.catbox.moe/esxl8g.jpg)
+#end
